@@ -1,0 +1,36 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Stage-1 disk cache (large, reproducible, not for VCS)
+code/.cache/
+
+# Submission artifacts (generated, upload manually)
+code.zip
+output.csv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs (live outside the repo by design — see AGENTS.md §2)
+hackerrank_orchestrate/
